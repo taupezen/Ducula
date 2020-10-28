@@ -3,12 +3,10 @@ Ducula - A zsh-theme inspired by the Dracula project
 
 Prompt features
 ---------------
- * Job status: Indicates if jobs are running in the background :coffee: (idea from agnoster theme)
- * Username abbreviations: Uses a different username if the corresponding mapping was set (idea from dieter theme)
- * Hostname abbreviations: Uses a different hostname if the corresponding mapping was set (idea from dieter theme)
+ * Job status: Indicates if jobs are running in the background ⍴ (idea from agnoster theme)
  * Virtual environments: Shows the name of activated virtual environment via ${VIRTUAL_ENV}
- * Current path: Displays the full current working directory
- * Return status: Shows the error return code (:bat:/:duck:)
+ * Current path: Display only the last part
+ * Return status: Colorize the labmda regarding the last return status
  * Git messages: Uses `git_super_status` from the git-prompt plugin
  * Prompt time: Timestamp (hh:mm)
 
@@ -23,7 +21,7 @@ Installation
 
 Clone the repository into your custom oh-my-zsh themes folder:
 
-    git clone git@github.com:janjoswig/Ducula.git ${ZSH_CUSTOM}/themes/Ducula
+    git clone git@github.com:taupezen/Ducula.git ${ZSH_CUSTOM}/themes/Ducula
 
 Set the theme in your .zshrc:
 
@@ -31,6 +29,8 @@ Set the theme in your .zshrc:
 
 Links
 -----
+
+Original Ducula theme: <https://github.com/janjoswig/Ducula>
 
 R. Zhao: This blog post (https://rzhao.io/blog/2015/08/26/zsh-prompt/) was the starting point for the theme
 
